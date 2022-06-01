@@ -303,7 +303,6 @@ main {
 
 
 /* member */
-
 .member-items {
     display         : flex;
     flex-direction  : row;
@@ -317,6 +316,7 @@ main {
     margin          : 10px 10px 10px 10px;
     padding         : 10px 10px 10px 10px;
     border          : 1px solid var(--theme-color2);
+    background-color: var(--white);
     border-radius   : 10px;
     display         : flex;
     flex-direction  : column;
@@ -486,6 +486,10 @@ table.about-container {
     width: 80%;
 }
 
+.contact-form textarea.hs-input {
+    height: 250px;
+}
+
 .contact-form label {
     font-size: var(--font-size-s);
     color: var(--theme-color1);
@@ -505,14 +509,14 @@ table.about-container {
     margin-right    : auto;
 }
 
-.contact-form input[type="submit"] {
-    color: var(--white);
+.contact-form input[type="submit"].hs-button {
+    color           : var(--white);
     background-color: var(--theme-color4);
-    border: 1px solid var(--theme-color4);
-    width           : 20%;
-    font-size: var(--font-size-m);
-    text-align: center;
-    padding         :10px 10px 10px 10px;
+    border          : 1px solid var(--theme-color4);
+    width           : 40%;
+    font-size       : var(--font-size-m);
+    text-align      : center;
+    padding         : 10px 10px 10px 10px;
 }
 
 /* footer */

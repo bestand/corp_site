@@ -12,8 +12,7 @@
 ?>
 
 	<main>
-		<!-- <h1>お探しのページが見つかりませんでした</h1>
-		<img src="./img/404.png" alt="404"> -->
+		<img class="404" alt="404" src="<?php echo get_template_directory_uri(); ?>/img/404.png">
 	</main>
 
 <?php
