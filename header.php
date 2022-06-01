@@ -21,25 +21,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-QX0NBEBS6Q"></script>
-	<script>
-  		window.dataLayer = window.dataLayer || [];
-  		function gtag(){dataLayer.push(arguments);}
-  		gtag('js', new Date());
-  		gtag('config', 'G-QX0NBEBS6Q');
-	</script> -->
-
 	<?php wp_head(); ?>
-
 </head>
 
 <body <?php body_class(); ?>>
 	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KTWRLTF" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<noscript>
+		<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KTWRLTF" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+	</noscript>
 	<!-- End Google Tag Manager (noscript) -->
-	<?php wp_body_open(); ?>
-	
 	<div>
 		<header>
 			<div class="site-title">
